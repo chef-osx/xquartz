@@ -19,7 +19,7 @@
 
 unless node['platform'] == 'mac_os_x' && node['platform_version'].to_f >= 10.8
   Chef::Log.warn "#{cookbook_name} is really only suitable for OS X 10.8+,"
-  Chef::Log.warn "as X11 is available in earlier releases."
+  Chef::Log.warn "as X11 is available in earlier releases. I'm exiting this recipe and continuing."
   return
 end
 

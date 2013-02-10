@@ -17,7 +17,7 @@ Requirements
 
 ## Cookbooks:
 
-* dmg
+* dmg, v1.1.0+
 
 Attributes
 ==========
