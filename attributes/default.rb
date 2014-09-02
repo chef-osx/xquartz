@@ -16,6 +16,6 @@
 # limitations under the License.
 #
 
-default['xquartz']['version'] = "2.7.5"
+default['xquartz']['version'] = "2.7.7"
 default['xquartz']['url'] = "http://xquartz.macosforge.org/downloads/SL/XQuartz-#{node['xquartz']['version']}.dmg"
-default['xquartz']['checksum'] = "4382ff78cef5630fb6b8cc982da2e5a577d8cc5dddd35a493b50bad2fcf5e34a"
+default['xquartz']['checksum'] = "c9b3a373b7fd989331117acb9696fffd6b9ee1a08ba838b02ed751b184005211"
