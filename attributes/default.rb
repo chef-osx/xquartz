@@ -16,6 +16,6 @@
 # limitations under the License.
 #
 
-default['xquartz']['version'] = "2.7.7"
-default['xquartz']['url'] = "http://xquartz.macosforge.org/downloads/SL/XQuartz-#{node['xquartz']['version']}.dmg"
-default['xquartz']['checksum'] = "c9b3a373b7fd989331117acb9696fffd6b9ee1a08ba838b02ed751b184005211"
+default['xquartz']['version'] = "2.7.8"
+default['xquartz']['url'] = "https://dl.bintray.com/xquartz/legacy-downloads/SL/XQuartz-#{node['xquartz']['version']}.dmg"
+default['xquartz']['checksum'] = "17a4c2da1ab3b676fdf80d1a0714c6bfd22183a604e823b4fd8329fdb4432c2a"
